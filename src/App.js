@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import CallingAbout from "./Components/CallingAbout";
+import UseStateExample from "./Components/UseStateExample";
+import ConditionalComponent from "./Components/ConditionalComponent";
+import OnChangeExample from "./Components/OnChangeExample";
+import OnClickExample from "./Components/OnClickExample";
+import ReuseableExample from "./Reuseable/ReuseableExample";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CallingAbout />
+      <UseStateExample />
+      <ConditionalComponent />
+      <hr />
+      <OnChangeExample />
+      <hr />
+
+      <OnClickExample />
+      <hr />
+      <ReuseableExample />
+    </>
   );
 }
 
