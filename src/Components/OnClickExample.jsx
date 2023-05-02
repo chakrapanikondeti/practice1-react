@@ -18,12 +18,23 @@ export default function OnClickExample() {
           placeholder="enter email"
           onChange={(e) => setEmail(e.target.value)}
         />
-        <input
-          type="password"
-          placeholder="enter password"
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button onClick={showDetails}>Login</button>
+        <p>
+          <input
+            type="password"
+            placeholder="enter password"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </p>
+        <button
+          style={{
+            backgroundColor: "black",
+            color: "white",
+            padding: "4px 12px",
+          }}
+          onClick={showDetails}
+        >
+          Login
+        </button>
 
         <p>Email: {email}</p>
         <p>Password: {password}</p>

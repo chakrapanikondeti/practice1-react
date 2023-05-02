@@ -6,12 +6,15 @@ import ConditionalComponent from "./Components/ConditionalComponent";
 import OnChangeExample from "./Components/OnChangeExample";
 import OnClickExample from "./Components/OnClickExample";
 import ReuseableExample from "./Reuseable/ReuseableExample";
+import UseEffectExample from "./ReactHooks/UseEffectExample";
 
 function App() {
   return (
     <>
       <CallingAbout />
+      <hr />
       <UseStateExample />
+      <hr />
       <ConditionalComponent />
       <hr />
       <OnChangeExample />
@@ -20,6 +23,10 @@ function App() {
       <OnClickExample />
       <hr />
       <ReuseableExample />
+      <br />
+      <UseEffectExample />
+      <br />
+      <br />
     </>
   );
 }
