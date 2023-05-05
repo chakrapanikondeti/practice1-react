@@ -7,11 +7,17 @@ import OnChangeExample from "./Components/OnChangeExample";
 import OnClickExample from "./Components/OnClickExample";
 import ReuseableExample from "./Reuseable/ReuseableExample";
 import UseEffectExample from "./ReactHooks/UseEffectExample";
+import UseRefExample from "./ReactHooks/UseRefExample";
+import UseReducerExample from "./ReactHooks/UseReducerExample";
+
+import UseReducerStudentList from "./ReactHooks/UseReducerStudentList";
+import UseReducerCounter from "./ReactHooks/UseReducerCounter";
+import UseMemoExample from "./ReactHooks/UseMemoExample";
 
 function App() {
   return (
     <>
-      <CallingAbout />
+      {/* <CallingAbout />
       <hr />
       <UseStateExample />
       <hr />
@@ -27,6 +33,15 @@ function App() {
       <UseEffectExample />
       <br />
       <br />
+      <UseRefExample />
+      <br />
+      <br />
+      <hr /> */}
+      <UseReducerExample />
+      <hr />
+      <UseReducerCounter />
+      <UseReducerStudentList />
+      <UseMemoExample />
     </>
   );
 }

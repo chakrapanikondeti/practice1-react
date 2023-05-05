@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.active {
+  background-color: blue;
+  color: #fff;
+}
+.inactive {
+  background-color: gray;
+  color: #000;
+}
