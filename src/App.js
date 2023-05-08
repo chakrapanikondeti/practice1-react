@@ -13,6 +13,11 @@ import UseReducerExample from "./ReactHooks/UseReducerExample";
 import UseReducerStudentList from "./ReactHooks/UseReducerStudentList";
 import UseReducerCounter from "./ReactHooks/UseReducerCounter";
 import UseMemoExample from "./ReactHooks/UseMemoExample";
+import UseCallbackExample from "./ReactHooks/UseCallbackExample";
+import UseCallback from "./ReactHooks/UseCallback";
+import UseCallback1 from "./ReactHooks/UseCallback1";
+import MyTodoList from "./ReactHooks/MyTodoList";
+import UseMemoExample2 from "./ReactHooks/UseMemoExample2";
 
 function App() {
   return (
@@ -37,11 +42,22 @@ function App() {
       <br />
       <br />
       <hr /> */}
-      <UseReducerExample />
+      {/* <UseReducerExample />
       <hr />
       <UseReducerCounter />
-      <UseReducerStudentList />
-      <UseMemoExample />
+      <UseReducerStudentList /> */}
+      {/* <UseMemoExample />
+      <hr />
+      <UseCallbackExample />
+      <hr />
+      <UseCallback />
+      <hr />
+      <UseCallback1 />
+      <hr />
+      <MyTodoList />
+      <br />
+      <br /> */}
+      <UseMemoExample2 />
     </>
   );
 }
