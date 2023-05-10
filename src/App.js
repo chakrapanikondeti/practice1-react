@@ -18,7 +18,8 @@ import UseCallback from "./ReactHooks/UseCallback";
 import UseCallback1 from "./ReactHooks/UseCallback1";
 import MyTodoList from "./ReactHooks/MyTodoList";
 import UseMemoExample2 from "./ReactHooks/UseMemoExample2";
-
+import UseCustomHookExample from "./ReactHooks/UseCustomHookExample";
+import UseContextExample from "./ReactHooks/UseContextExample";
 function App() {
   return (
     <>
@@ -57,7 +58,11 @@ function App() {
       <MyTodoList />
       <br />
       <br /> */}
-      <UseMemoExample2 />
+      {/* <UseMemoExample2 />
+      <br />
+      <UseCustomHookExample /> */}
+
+      <UseContextExample />
     </>
   );
 }
